@@ -1,0 +1,31 @@
+{
+  "name": "jstestbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "typeorm": "^0.3.7"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.0.0",
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "keywords": [],
+  "description": ""
+}
